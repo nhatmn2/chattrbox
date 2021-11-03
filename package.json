@@ -1,0 +1,31 @@
+{
+  "name": "chattrbox",
+  "version": "1.0.0",
+  "description": "cool chat app that uses avatars and Moments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "parcel build app/scripts/src/main.js",
+    "watch": "parcel watch app/scripts/src/main.js"
+  },
+  "keywords": [
+    "cool",
+    "chat",
+    "avatar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "nodemon": "^2.0.13",
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.2.3"
+  }
+}
